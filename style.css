@@ -1,3 +1,9 @@
+
+.minhacor{
+  color: white;
+}
+
+
 :root {
   --purple-primary: #7c3aed;
   --purple-dark: #5b21b6;
@@ -483,6 +489,13 @@ footer {
     left: 20px;
     right: 20px;
     max-width: calc(100% - 40px);
+  }
+
+  .quantity-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
   }
 }
 
