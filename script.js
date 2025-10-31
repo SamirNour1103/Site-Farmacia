@@ -244,7 +244,7 @@ function addToCart(productId) {
   updateCartCount()
 
   // Show toast notification
-  alert(`${product.name} adicionado ao carrinho!`)
+  showToast("Adicionado ao carrinho!", `${product.name} foi adicionado com sucesso`)
 }
 
 function removeFromCart(productId) {
@@ -539,3 +539,35 @@ document.addEventListener("DOMContentLoaded", () => {
     loadCart()
   }
 })
+
+function showToast(title, message) {
+  // Remove any existing toasts
+  const existingToast = document.querySelector(".custom-toast")
+  if (existingToast) {
+    existingToast.remove()
+  }
+
+  // Create toast element
+  const toast = document.createElement("div")
+  toast.className = "custom-toast"
+  toast.innerHTML = `
+    <div class="custom-toast-icon">
+      <i class="bi bi-check-circle-fill"></i>
+    </div>
+    <div class="custom-toast-content">
+      <p class="custom-toast-title">${title}</p>
+      <p class="custom-toast-message">${message}</p>
+    </div>
+    <button class="custom-toast-close" onclick="this.parentElement.remove()">
+      <i class="bi bi-x-lg"></i>
+    </button>
+  `
+
+  document.body.appendChild(toast)
+
+  // Auto remove after 3 seconds
+  setTimeout(() => {
+    toast.classList.add("hiding")
+    setTimeout(() => toast.remove(), 300)
+  }, 3000)
+}
