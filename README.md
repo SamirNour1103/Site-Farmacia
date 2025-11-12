@@ -8,3 +8,10 @@
  **Controle de versão:** Github
 
  **Organização do código:** Pastas
+
+## Grupo:
+ • Lucas Honorato 
+ • Mariana Couto
+ • Rafel Ramos
+ • Robson Cardoso 
+ • Samir Simon
