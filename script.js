@@ -6,7 +6,7 @@ const products = [
     category: "Analgésicos",
     price: 12.9,
     oldPrice: 18.9,
-    image: "img/Paracetamol 500mg.jpg",
+    image: "/paracetamol_tablet.png",
     description: "Analgésico e antitérmico eficaz para dores leves a moderadas e febre.",
     indications: "Indicado para o alívio de dores de cabeça, dores musculares, dores de dente e febre.",
     contraindications: "Não use em caso de alergia ao paracetamol ou problemas hepáticos graves.",
@@ -19,7 +19,7 @@ const products = [
     category: "Vitaminas",
     price: 24.9,
     oldPrice: 32.9,
-    image: "img/Vitamina C 1g.jpg",
+    image: "/vitamin-c.jpg",
     description: "Suplemento vitamínico para fortalecer o sistema imunológico.",
     indications: "Fortalecimento do sistema imunológico, prevenção de gripes e resfriados.",
     contraindications: "Não recomendado para pessoas com cálculos renais.",
@@ -32,7 +32,7 @@ const products = [
     category: "Analgésicos",
     price: 8.9,
     oldPrice: 14.9,
-    image: "img/dipironagg.png",
+    image: "/dipirona.jpg",
     description: "Analgésico e antitérmico de ação rápida.",
     indications: "Dores de intensidade leve a moderada e febre.",
     contraindications: "Não use em caso de alergia à dipirona ou problemas sanguíneos.",
@@ -45,7 +45,7 @@ const products = [
     category: "Suplementos",
     price: 45.9,
     oldPrice: 59.9,
-    image: "img/omega3.png",
+    image: "/omega-3.jpg",
     description: "Suplemento rico em ácidos graxos essenciais para saúde cardiovascular.",
     indications: "Saúde do coração, redução de triglicerídeos, função cerebral.",
     contraindications: "Consulte um médico se estiver tomando anticoagulantes.",
@@ -58,7 +58,7 @@ const products = [
     category: "Analgésicos",
     price: 15.9,
     oldPrice: 22.9,
-    image: "img/ibuprofeno.png",
+    image: "/ibuprofeno.jpg",
     description: "Anti-inflamatório não esteroidal para dores e inflamações.",
     indications: "Dores musculares, artrite, dores de cabeça, cólicas menstruais.",
     contraindications: "Não use em caso de úlcera gástrica ou problemas renais.",
@@ -71,7 +71,7 @@ const products = [
     category: "Vitaminas",
     price: 28.9,
     oldPrice: 38.9,
-    image: "img/vitaminad.jpg",
+    image: "/vitamin-d.jpg",
     description: "Essencial para saúde óssea e sistema imunológico.",
     indications: "Fortalecimento dos ossos, prevenção de osteoporose, imunidade.",
     contraindications: "Não exceder a dose recomendada.",
@@ -84,7 +84,7 @@ const products = [
     category: "Antibióticos",
     price: 32.9,
     oldPrice: 45.9,
-    image: "img/amoxilina.jpg",
+    image: "/amoxicilina.jpg",
     description: "Antibiótico de amplo espectro para infecções bacterianas.",
     indications: "Infecções respiratórias, urinárias, de pele e ouvido.",
     contraindications: "Alergia à penicilina.",
@@ -97,7 +97,7 @@ const products = [
     category: "Vitaminas",
     price: 22.9,
     oldPrice: 29.9,
-    image: "img/complexo.jpeg",
+    image: "/vitamin-b.jpg",
     description: "Combinação de vitaminas do complexo B para energia e metabolismo.",
     indications: "Fadiga, estresse, metabolismo energético.",
     contraindications: "Consulte um médico em caso de gravidez.",
@@ -110,7 +110,7 @@ const products = [
     category: "Digestivos",
     price: 18.9,
     oldPrice: 26.9,
-    image: "img/omeprazol.jpg",
+    image: "/omeprazol.jpg",
     description: "Inibidor da bomba de prótons para tratamento de acidez estomacal.",
     indications: "Azia, refluxo gastroesofágico, úlceras.",
     contraindications: "Não use por mais de 14 dias sem orientação médica.",
@@ -123,7 +123,7 @@ const products = [
     category: "Suplementos",
     price: 52.9,
     oldPrice: 68.9,
-    image: "img/colageno.jpeg",
+    image: "/colageno.jpg",
     description: "Suplemento para saúde da pele, cabelos e articulações.",
     indications: "Elasticidade da pele, fortalecimento de unhas e cabelos, articulações.",
     contraindications: "Alergia a proteínas animais.",
@@ -136,7 +136,7 @@ const products = [
     category: "Antialérgicos",
     price: 14.9,
     oldPrice: 21.9,
-    image: "img/loratadina.jpg",
+    image: "/loratadina.jpg",
     description: "Antialérgico de longa duração sem causar sono.",
     indications: "Rinite alérgica, urticária, coceira.",
     contraindications: "Consulte um médico em caso de gravidez.",
@@ -149,7 +149,7 @@ const products = [
     category: "Suplementos",
     price: 38.9,
     oldPrice: 49.9,
-    image: "img/probioticos10b.jpeg",
+    image: "/probioticos.jpg",
     description: "Suplemento com bactérias benéficas para saúde intestinal.",
     indications: "Saúde digestiva, imunidade, equilíbrio da flora intestinal.",
     contraindications: "Pessoas imunocomprometidas devem consultar médico.",
@@ -162,7 +162,7 @@ const products = [
     category: "Analgésicos",
     price: 16.9,
     oldPrice: 23.9,
-    image: "img/dorflex.jpg",
+    image: "/dorflex.jpg",
     description: "Analgésico e relaxante muscular.",
     indications: "Dores musculares, tensão, dores de cabeça tensionais.",
     contraindications: "Não use com álcool ou outros relaxantes.",
@@ -175,7 +175,7 @@ const products = [
     category: "Suplementos",
     price: 34.9,
     oldPrice: 44.9,
-    image: "img/magnesio.jpeg",
+    image: "/magnesio.jpg",
     description: "Suplemento de magnésio para energia e função muscular.",
     indications: "Cãibras, fadiga, função muscular e nervosa.",
     contraindications: "Problemas renais graves.",
@@ -188,7 +188,7 @@ const products = [
     category: "Antialérgicos",
     price: 19.9,
     oldPrice: 27.9,
-    image: "img/cetirizina.png",
+    image: "/cetirizina.jpg",
     description: "Antialérgico de segunda geração.",
     indications: "Alergias respiratórias, urticária, rinite.",
     contraindications: "Insuficiência renal grave.",
@@ -201,7 +201,7 @@ const products = [
     category: "Suplementos",
     price: 89.9,
     oldPrice: 119.9,
-    image: "img/whey.jpg",
+    image: "/whey-protein.jpg",
     description: "Proteína de alta qualidade para ganho de massa muscular.",
     indications: "Ganho de massa muscular, recuperação pós-treino.",
     contraindications: "Alergia ao leite.",
@@ -215,11 +215,18 @@ let cart = JSON.parse(localStorage.getItem("cart")) || []
 
 function updateCartCount() {
   const cartCount = cart.reduce((total, item) => total + item.quantity, 0)
-  const cartCountElements = document.querySelectorAll("#cart-count")
-  cartCountElements.forEach((el) => {
-    el.textContent = cartCount
-    el.style.display = cartCount > 0 ? "inline" : "none"
-  })
+  const cartCountMobile = document.getElementById("cart-count")
+  const cartCountDesktop = document.getElementById("cart-count-desktop")
+
+  if (cartCountMobile) {
+    cartCountMobile.textContent = cartCount
+    cartCountMobile.style.display = cartCount > 0 ? "inline" : "none"
+  }
+
+  if (cartCountDesktop) {
+    cartCountDesktop.textContent = cartCount
+    cartCountDesktop.style.display = cartCount > 0 ? "inline" : "none"
+  }
 }
 
 function addToCart(productId) {
