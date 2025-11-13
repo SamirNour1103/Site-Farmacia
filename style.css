@@ -352,6 +352,7 @@ body {
 footer {
   background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
   box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.1);
+  padding-top: 5%;
 }
 
 .social-links a {

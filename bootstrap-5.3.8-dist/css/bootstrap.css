@@ -8545,6 +8545,12 @@ textarea.form-control-lg {
   color: rgba(var(--bs-body-color-rgb), var(--bs-text-opacity)) !important;
 }
 
+.minhacor{
+  --bs-text-opacity: 1;
+  color: white !important;
+
+}
+
 .text-muted {
   --bs-text-opacity: 1;
   color: var(--bs-secondary-color);
